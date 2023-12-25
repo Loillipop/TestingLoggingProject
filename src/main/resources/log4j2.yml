@@ -1,5 +1,5 @@
 Configuration:
-  status: "DEBUG"
+  status: "INFO"
 Appenders:
   RollingFile:
     name: "FileLog"
