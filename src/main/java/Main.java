@@ -18,8 +18,8 @@ public class Main {
                 new Horse("Cherry", 3)
         );
         Hippodrome hippodrome = new Hippodrome(horses);
-        logger.error("Начало скачек. Количество участников: {}", horses.size());
-        for (int i = 0; i < 3; i++) {
+        logger.info("Начало скачек. Количество участников: {}", horses.size());
+        for (int i = 0; i < 10; i++) {
             hippodrome.move();
             watch(hippodrome);
             TimeUnit.MILLISECONDS.sleep(200);
